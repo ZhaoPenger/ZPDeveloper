@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'ZPDeveloper_Example' do
-  pod 'ZPDeveloper', :path => '../'
+  pod 'ZPDeveloper', :podspec => '../ZPDeveloper.podspec'  # 指定podspec文件
 
   target 'ZPDeveloper_Tests' do
     inherit! :search_paths

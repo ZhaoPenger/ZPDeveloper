@@ -1,0 +1,6 @@
+framework module ZPDeveloper {
+  umbrella header "ZPDeveloper-umbrella.h"
+
+  export *
+  module * { export * }
+}
